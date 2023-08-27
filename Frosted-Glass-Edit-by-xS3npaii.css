@@ -102,6 +102,7 @@
   --text-normal:rgba(255,27,240,1);
   --text-muted:rgba(182,182,182,1);
   --header-secondary:rgba(205,207,211,1);
+  --background-secondary-alt:rgba(0,9,21,0);
   --channels-default:rgba(201,201,201,1);
   --channeltextarea-background:var(--background-secondary-alt);
   --interactive-normal:var(--kds-almost-cyan);
