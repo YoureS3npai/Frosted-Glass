@@ -38,7 +38,7 @@
 }
 
 .theme-dark {
-      --kds-settings-larger-header:rgb(193,0,242);
+    --kds-settings-larger-header:rgb(193,0,242);
     --kds-settings-larger-header-rgb:193,0,242;
     --kds-discord-nitro-magenta:rgb(255,115,250);
     --kds-discord-nitro-magenta-rgb:255,115,250;
@@ -87,18 +87,21 @@
     --kds-darker-interactive-active:rgb(209,41,255);
     --kds-darker-interactive-active-rgb:209,41,255;
     --header-primary:var(--kds-light-grey);
-    --background-accent:rgba(3,13,34,1);
-    --background-primary:var(--background-accent);
-    --background-secondary:rgba(1,11,30,1);
-    --background-secondary-alt:rgba(0,9,21,1);
-    --background-tertiary:rgba(0,5,15,1);
-    --background-floating:var(--background-tertiary);
-    --background-modifier-hover:rgba(3,9,27,1);
-    --background-modifier-active:rgba(3,16,40,1);
-    --background-modifier-selected:var(--background-modifier-active);
-    --background-mobile-primary:var(--background-primary);
-    --background-mobile-secondary:var(--background-secondary);
-    --background-mentioned:rgba(var(--kds-mango-yellow-rgb),0.075);
+    --background-primary: transparent;
+    --background-secondary: rgb(0, 0, 0, 0.3);
+    --background-secondary-alt: transparent;
+    --background-tertiary: transparent;
+    --background-accent: #4f545c;
+    --background-floating: transparent;
+    --background-mobile-primary: #36393f;
+    --background-mobile-secondary: #2f3136;
+    --background-modifier-hover: rgb(255, 255, 255, 0.05);
+    --background-modifier-active: rgb(255, 255, 255, 0.07);
+    --background-modifier-selected: rgb(255, 255, 255, 0.1);
+    --background-modifier-accent: rgb(255, 255, 255, 0.1);
+    --background-mentioned: rgb(250, 166, 26, 0.05);
+    --background-mentioned-hover: rgb(250, 166, 26, 0.08);
+    --background-message-hover: rgb(4, 4, 5, 0.07);
     --text-link:rgba(62,200,255,1);
     --text-normal:rgba(255,27,240,1);
     --text-muted:rgba(182,182,182,1);
